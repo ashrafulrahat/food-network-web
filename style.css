@@ -4,6 +4,9 @@ body{
 h1{
     font-size: 45px;
 }
+h2{
+    font-size: 35px;
+}
 .orange-color{
             color: orange;
 }
@@ -16,12 +19,13 @@ h1{
 .half-width img{
         width: 80%;
 }
+
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .link-site {
-    text-decoration: none;
+        text-decoration: none;
         background: linear-gradient(45deg, lightSalmon, tomato);
         padding-top: 15px;
         padding-bottom: 15px;
@@ -31,4 +35,73 @@ h1{
         font-weight: 700;
         border-radius: 80px;
     
+}
+.background{
+         background-image: url(images/background.png);
+         background-position: center;
+}
+#text-align{
+    text-align: center;
+}
+#div-left{
+        width: 23.33%;
+        display: inline-block;
+        margin-left: 5%;
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 40px  gray;
+        
+        
+}
+#div-middle{
+        width: 23.33%;
+        display: inline-block;
+        margin-left: 5%;
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 40px  gray;
+}
+#div-right{
+        width: 23.33%;
+        display: inline-block;
+        margin-left: 5%;
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 40px  gray;
+    
+}
+#img1{
+   max-width:100%;
+}
+#img2{
+   max-width: 100%;
+}
+#img3{
+   max-width: 100%;
+}
+footer {
+    text-align: center;
+}
+#footer{
+    background-color:rgba(18, 18, 19, 0.938) ;
+    position: relative;
+    height: 200px;
+    margin-top: 100px;
+    padding-top: 2%;
+    clear: both;
+}
+#color-w{
+    color: white;
+}
+#color-N{
+    color: gray;
 }
